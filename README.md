@@ -10,8 +10,8 @@
 
 ```./startup.cmd```
 
-4. Once everything downloads. Put your license in ./bundles/deploy
+3. Once everything is ready. Put your license in ./bundles/deploy
 
-5. Then run:
+4. Then run:
 
 ```docker compose up -d```
