@@ -13,10 +13,8 @@
 	<name>liferay</name>
 	<properties>
 
-		<!-- Change this value to the match the corresponding target bundle URL. -->
-		<liferay.workspace.bundle.url>https://releases-cdn.liferay.com/portal/7.4.3.102-ga102/liferay-ce-portal-tomcat-7.4.3.102-ga102-20231109165213885.tar.gz</liferay.workspace.bundle.url>
-		<liferay.bom.version>7.4.13.u102</liferay.bom.version>
-		<liferay.workspace.environment>local</liferay.workspace.environment>
+		<liferay.workspace.bundle.url>https://releases-cdn.liferay.com/dxp/7.4.13-u86/liferay-dxp-tomcat-7.4.13.u86-20230724224137400.tar.gz</liferay.workspace.bundle.url>
+		<liferay.bom.version>7.4.13.u86</liferay.bom.version>
 		<liferay.repository.url>https://repository-cdn.liferay.com/nexus/content/groups/public/</liferay.repository.url>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>

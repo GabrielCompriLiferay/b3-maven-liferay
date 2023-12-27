@@ -13,6 +13,6 @@
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 	<artifactId>liferay-themes</artifactId>
-	<name>liferay Themes</name>
+	<name>Liferay Themes</name>
 	<packaging>pom</packaging>
 </project>
