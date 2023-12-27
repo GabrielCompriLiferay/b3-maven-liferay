@@ -4,7 +4,7 @@
 
 blade server init
 
-2.Once everything downloads. Put your license in ./bundles/deploy
+2. Once everything downloads. Put your license in ./bundles/deploy
 
 3. Then run:
 
