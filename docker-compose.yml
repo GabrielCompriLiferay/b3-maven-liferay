@@ -6,7 +6,7 @@ services:
       - MYSQL_ROOT_PASSWORD=root
       - MYSQL_DATABASE=lportal
       - MYSQL_USER=dxpcloud
-      - MYSQL_PASSWORD=eEiUbJQxTzWVNf6tJ923qPDj43DCuy
+      - MYSQL_PASSWORD=hello_world
     command: mysqld --character-set-server=utf8 --collation-server=utf8_general_ci --character-set-filesystem=utf8
     ports:
       - 3306:3306
@@ -21,7 +21,7 @@ services:
       - LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_DRIVER_UPPERCASEC_lass_UPPERCASEN_ame=com.mysql.cj.jdbc.Driver
       - LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_URL=jdbc:mysql://database/lportal?dontTrackOpenResources=true&holdResultsOpenOverStatementClose=true&useFastDateParsing=false&useSSL=false&allowPublicKeyRetrieval=true
       - LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_USERNAME=dxpcloud
-      - LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_PASSWORD=eEiUbJQxTzWVNf6tJ923qPDj43DCuy
+      - LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_PASSWORD=hello_world
     ports:
       - 8000:8000
       - 8080:8080
@@ -32,6 +32,7 @@ services:
       - './bundles/osgi/modules:/opt/liferay/osgi/modules'
       - './bundles/osgi/war:/opt/liferay/osgi/war'
       - './volumes/liferay/mnt:/mnt/liferay'
+      - './configs/common/:/opt/liferay/osgi/configs'
     depends_on:
       search:
          condition: service_healthy
