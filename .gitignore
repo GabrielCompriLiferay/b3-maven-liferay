@@ -31,3 +31,5 @@ test-results
 
 !/modules/pom.xml
 !/themes/pom.xml
+!/volumes/search/data/.keep
+!/volumes/database/data/.keep
