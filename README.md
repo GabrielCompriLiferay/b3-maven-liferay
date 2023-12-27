@@ -4,8 +4,13 @@
 
 ```blade server init```
 
-2. Once everything downloads. Put your license in ./bundles/deploy
+2. Then depending on linux or windows run the startup script1
 
-3. Then run:
+```./startup.sh```
+```./startup.cmd```
+
+4. Once everything downloads. Put your license in ./bundles/deploy
+
+5. Then run:
 
 ```docker compose up -d```
