@@ -27,7 +27,8 @@
 test-results
 /modules
 /themes
-/volumes
+/volumes/search/data
+/volumes/database/data
 
 !/modules/pom.xml
 !/themes/pom.xml
