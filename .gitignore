@@ -25,3 +25,7 @@
 /plugins-sdk/dist
 /plugins-sdk/lib
 test-results
+/modules/*
+/themes/*
+
+!/modules/pom.xml
