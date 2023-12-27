@@ -4,7 +4,7 @@
 
 ```blade server init```
 
-2. Then depending on linux or windows run the startup script1
+2. Then depending on linux or windows run the startup script:
 
 ```./startup.sh```
 
